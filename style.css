@@ -1,0 +1,45 @@
+html, body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+header {
+  font-size: 32px;
+}
+#navbar {
+  position: fixed;
+  text-decoration: none;
+  width: 10vw;
+  min-width: 300px;
+  left: 0px;
+  border-right: 1px solid #000;
+  height: 100%;
+  text-align: center;
+}
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  font-size: 18px;
+  border-top: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+#main-doc {
+  display: inline-block;
+  margin-left: 320px;
+}
+code {  /* took this from the example since I did not feel like figuring it out */
+    white-space: pre;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    display: block;
+    text-align: left;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
