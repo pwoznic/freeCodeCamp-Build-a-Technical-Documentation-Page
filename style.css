@@ -1,3 +1,12 @@
+/* media query for ipads */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    header {
+    font-size: 24px; /* Reduces size of header font */
+    }
+}
 html, body {
   font-family: 'Open Sans', Arial, sans-serif;
 }
@@ -30,7 +39,7 @@ header {
   display: inline-block;
   margin-left: 320px;
 }
-code {  /* took this from the example since I did not feel like figuring it out */
+code {  /* took this from the examples :) */
     white-space: pre;
     position: relative;
     word-break: normal;
@@ -43,3 +52,4 @@ code {  /* took this from the example since I did not feel like figuring it out 
     margin: 10px;
     border-radius: 5px;
 }
+@media
