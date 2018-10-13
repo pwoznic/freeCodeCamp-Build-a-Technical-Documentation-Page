@@ -1,6 +1,7 @@
 # Responsive Web Design Projects - Build a Technical Documentation Page
 
-## This project is in progress and I will post the final project to codepen as well.
+## I posted the project to codepan: https://codepen.io/pwoz/pen/xaeeyd
+### This includes the project user stories 1-15. I added a personal user story #16 for editing the content according to my technical documentation specifications and style.
 
 **Objective:** Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/NdrKKL.
 
